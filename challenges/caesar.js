@@ -1,6 +1,9 @@
 /*
+Go here for more info:
+https://mv-swe-docs.netlify.app/notes/extensions/cryptography.html#caesar-shift
+
 The Caesar Shift is produced by rotating the alphabet and swapping the letters of the original message with the rotated alphabet.
-If the key is 2, then the original and rotated alphabets are
+If the key is 2, then the original and rotated alphabets are:
 
 abcdefghijklmnopqrstuvwxyz
 CDEFGHIJKLMNOPQRSTUVWXYZAB
