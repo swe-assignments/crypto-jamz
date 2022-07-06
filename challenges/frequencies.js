@@ -1,6 +1,9 @@
 const sample = require('../assets/sampleEnglish')
 
 /*
+Head to https://master--mv-swe-docs.netlify.app/notes/extensions/cryptography.html#frequency-analysis
+for more info!
+
 The variable "sample" contains a large amount of text in English:
 The Collected Works of Edgar Allen Poe.
 Your challenge is to work out the relative frequencies of each letter in the text.
@@ -9,22 +12,8 @@ This will give us an idea of which letters are the most common letters in the En
 
 function getFrequencies (sample) {
   // write code here to work out the frequency of each letter in the English alphabet
-  // the output should be an object whose keys are the lowercase letters of the alphabet,
+  // The function should return an object whose keys are the lowercase letters of the alphabet,
   // and whose value should be the relative frequency of that letter
-  const frequencies = {}
-  const alphabet = 'abcdefghijklmnopqrstuvwxyz'
-  let total = 0
-  for (let x of sample) {
-    x = x.toLowerCase()
-    if (alphabet.includes(x)) {
-      total += 1
-      frequencies[x] = frequencies[x] ? frequencies[x] += 1 : frequencies[x] = 1
-    }
-  }
-  Object.keys(frequencies).forEach(x => {
-    frequencies[x] /= total
-  })
-  return frequencies
 }
 
 // don't change this code below!
