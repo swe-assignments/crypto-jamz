@@ -3,7 +3,7 @@ const { caesarEncode, caesarDecode } = require('../challenges/caesar')
 describe('Caesar', () => {
 
   test('it encodes correctly', () => {
-    expect(caesarEncode('my name is jeff', 13)).toBe('ZL ANZR VF WRSS')
+    expect(caesarEncode('my name is jeff', 15)).toBe('BN CPBT XH YTUU')
   })
 
   test('it decodes correctly', () => {
