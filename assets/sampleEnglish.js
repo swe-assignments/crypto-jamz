@@ -1,5 +1,5 @@
 const sample = `
-The Project Gutenberg eBook of The Works of Edgar Allan Poe, Volume 2, by Edgar Allan Poe
+The Project Gutenberg eBook of The Works of Edgar Allan Poe, Volume 2, by Edgar Allan Poe.
 
 This eBook is for the use of anyone anywhere in the United States and
 most other parts of the world at no cost and with almost no restrictions
